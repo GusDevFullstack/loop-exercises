@@ -7,17 +7,17 @@ public class IncreasingOrDecreasing {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int x = sc.nextInt();
-		int y = sc.nextInt();
+		int number1 = sc.nextInt();
+		int number2 = sc.nextInt();
 
-		while (x != y) {
-			if (x > y) {
+		while (number1 != number2) {
+			if (number1 > number2) {
 				System.out.println("Decreasing");
 			} else {
 				System.out.println("Increasing");
 			}
-			x = sc.nextInt();
-			y = sc.nextInt();
+			number1 = sc.nextInt();
+			number2 = sc.nextInt();
 		}
 
 		sc.close();
