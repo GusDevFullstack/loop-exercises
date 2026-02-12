@@ -18,7 +18,7 @@ public class IncreasingOrDecreasing {
 			}
 			number1 = sc.nextInt();
 			number2 = sc.nextInt();
-		} 
+		}
 
 		sc.close();
 	}

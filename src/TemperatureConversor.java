@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class TemperatureConversor {
 
 	public static void main(String[] args) {
-		
+
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
+
 		char answer;
 		do {
 			System.out.print("Digite a temperatura em Celsius: ");
@@ -17,7 +17,7 @@ public class TemperatureConversor {
 			System.out.print("Deseja repetir (s/n)? ");
 			answer = sc.next().charAt(0);
 		} while (answer == 's');
-		
+
 		sc.close();
 	}
 }
